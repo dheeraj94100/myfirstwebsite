@@ -1,0 +1,91 @@
+*{
+    margin: 0;padding: 0;
+}
+body{
+    background-color: red;
+}
+.bgimage{
+    background-image: url('image.png');
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100vh;
+}
+.menu
+{
+    width: 100%;
+    height: 100px;
+    background-color: rgba(0, 255, 251, 0.872);
+}
+.leftmenu
+{
+    width: 25%;
+    line-height: 100px;
+    float: left;
+}
+.rightmenu
+{
+    width: 75%;
+    height: 100px;
+
+}
+.leftmenu h4{
+    padding-left: 40px;
+    font-weight: bold;
+    color: antiquewhite;
+    font-size: 29px;
+}
+.rightmenu ul{
+    margin-left: 200px;
+}
+.rightmenu ul li{
+    display: inline-block;
+    list-style: none;
+    font-size: 20px;
+    color: blanchedalmond;
+    line-height: 100px;
+    margin-left: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.rightmenu ul li:hover{
+    color: gray;
+}
+.text
+{
+    width: 100%;
+    margin-top: 225px;
+    text-align: center;
+    color: antiquewhite;
+}
+.text h4{
+    font-size: 14px;
+    font-weight: bold;
+}
+.text h1{
+    font-size: 40px;
+    margin: 14px 14px;
+}
+#button1
+{
+    background-color:transparent;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 30px;
+    width: 150px;
+    margin-top: 20px;
+    border: 10px blue;
+    text-transform: uppercase;
+}
+#button2
+{
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 30px;
+    width: 150px;
+    margin-top: 20px;
+    border: 10px blue;
+    text-transform: uppercase;
+}
